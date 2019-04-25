@@ -6,5 +6,6 @@ if (!$enlace) {
 }
 echo 'Connecteros soccsessfoly';
 mysql_close($enlace);
+echo "<br>EDSI";
 ?>
 
