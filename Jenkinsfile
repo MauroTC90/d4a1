@@ -18,10 +18,10 @@ pipeline{
 
 		}
 
-//		stage ('Deploy Container'){
-//			steps{
-				
-//			}
-//		}
+		stage ('Deploy Container'){
+			steps{
+				sh 'sudo docker-compose up -d'
+			}
+		}
 	}
 }
