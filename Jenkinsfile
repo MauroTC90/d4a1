@@ -1,6 +1,6 @@
 pipeline{
         environment{
-                registry = "MauroTC90/d4a1"
+                registry = "maurotc90/d4a1"
                 registryCredential = "dockerhub"
         }
         agent any
