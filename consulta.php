@@ -1,3 +1,3 @@
 <?php
-echo "archivo creado todo Ok.";
+echo "archivo modificado todo OK.";
 ?>
